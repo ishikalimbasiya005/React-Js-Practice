@@ -6,20 +6,20 @@ Each component or concept is saved in a separate file or folder to keep things o
 ---
 
  ### 📁 Project Structure
-
-After running the command:
-
-```bash
-npx create-react-app react-js-practice
-```
-This will automatically create the following folders and files:
-```
+ ```
 react-js-practice/
-├── node_modules/          # All required dependencies
-├── package.json           # Project configuration and dependencies
-├── package-lock.json      # Exact version lock for dependencies
-├── public/                # Contains index.html and other static assets
-└── src/                   # Your React source code (App.js, index.js, etc.)
+├── node_module
+├── public/
+│ └── index.html
+├── src/
+│ └── framework/
+│ ├── Mui.jsx
+│ ├── AntDesign.jsx
+│ └── ...more files..
+│ ├── index.js
+├── package-lock.json
+├── package.json
+├── README.md
 ```
 
 ---
