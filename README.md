@@ -46,6 +46,7 @@ react-js-practice/
 └── src/                  # Your React source code (App.js, index.js, etc.)
 ```
 
+
 ### ✅ Step 2: Add My Code
 
 After creating the base React app, follow these steps to use the practice files from this repository:
@@ -53,6 +54,7 @@ After creating the base React app, follow these steps to use the practice files 
 1. **Clone or download** this GitHub repository.
 
 2. **Copy all folders** (like `framework/`, `api/`, etc.) into your local React app's `src/` folder.
+
 
 
 ### ✅step 3: index.js (Inside `src/` Folder)
@@ -74,6 +76,7 @@ root.render(
 );
 ```
 
+
 ### ✅ Step 4: Run the React App
 
 Now start the React development server by running:
@@ -85,6 +88,7 @@ This will open your app automatically in the browser at:
 ``` http://localhost:3000 ```
 
 ---
+
 
 ## 🗂 Component-Specific Instructions
 
@@ -98,6 +102,17 @@ Some components may include their own `README.md` files explaining how they work
 This project is created for learning React step-by-step.  
 Each folder/file is written to practice different topics and frameworks.
 
+## 📬 Connect with Me
+
+If you find this useful or want to collaborate, feel free to connect:
+
+- 🌐 GitHub: https://github.com/ishikalimbasiya005
+- 💼 LinkedIn: www.linkedin.com/in/ishikalimbasiya
+
+---
+
+Thanks for visiting my repository! 😊  
+Keep learning and styling! 💻🎨
 
 
 
