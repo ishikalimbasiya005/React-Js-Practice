@@ -13,14 +13,14 @@ After running the command:
 npx create-react-app react-js-practice
 ```
 This will automatically create the following folders and files:
+```
 react-js-practice/
 ├── node_modules/          # All required dependencies
 ├── package.json           # Project configuration and dependencies
 ├── package-lock.json      # Exact version lock for dependencies
 ├── public/                # Contains index.html and other static assets
 └── src/                   # Your React source code (App.js, index.js, etc.)
-
-
+```
 
 ---
 
@@ -37,12 +37,14 @@ npx create-react-app react-js-practice
 
 ```
 This will automatically create the following folders and files :
+```
 react-js-practice/
 ├── node_modules/         # All required dependencies
 ├── package.json          # Project configuration and dependencies
 ├── package-lock.json     # Exact version lock for dependencies
 ├── public/               # Contains index.html and other static files
 └── src/                  # Your React source code (App.js, index.js, etc.)
+```
 
 ### ✅ Step 2: Add My Code
 
