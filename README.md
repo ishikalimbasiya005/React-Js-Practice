@@ -96,6 +96,13 @@ Each file inside `src/framework/` (like `Mui.jsx`, `ButtonDemo.jsx`, etc.) is a 
 Some components may include their own `README.md` files explaining how they work in detail.
 
 ---
+## 🧾 Requirements
+
+- ✅ Node.js installed  
+- ✅ Internet connection to install packages  
+- ✅ Code editor (like VS Code)
+
+---
 
 ## 📌 Goal
 
