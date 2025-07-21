@@ -5,6 +5,42 @@ Each component or concept is saved in a separate file or folder to keep things o
 
 Note :- When you run the command npx create-react-app react-js-practice in the command prompt, it will automatically generate package.json, package-lock.json, node_modules, src, and public folders.
 You just need to copy the folders from my src directory and paste them into your own src folder, and also replace the code in index.js with my code.
+
+## ❗ Troubleshooting
+
+### ❌ ESLint Error: `jest/globals` is unknown
+
+If you see the following error in your terminal:
+ERROR
+[eslint] package.json » eslint-config-react-app/jest#overrides[0]:
+Environment key "jest/globals" is unknown
+
+
+### ✅ Solution
+
+1. Open your `package.json` file.
+2. Find the section that looks like this:
+
+```json
+"eslintConfig": {
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
+}
+```
+Remove the line "react-app/jest" so it becomes:
+```
+"eslintConfig": {
+  "extends": [
+    "react-app"
+  ]
+}
+```
+
+Save the file and restart your development server:
+```npm start```
+
 ---
 
  ### 📁 Project Structure
