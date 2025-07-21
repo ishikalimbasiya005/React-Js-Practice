@@ -3,6 +3,8 @@
 This repository contains my React learning and practice code.  
 Each component or concept is saved in a separate file or folder to keep things organized and easy to reuse.
 
+Note :- When you run the command npx create-react-app react-js-practice in the command prompt, it will automatically generate package.json, package-lock.json, node_modules, src, and public folders.
+You just need to copy the folders from my src directory and paste them into your own src folder, and also replace the code in index.js with my code.
 ---
 
  ### 📁 Project Structure
