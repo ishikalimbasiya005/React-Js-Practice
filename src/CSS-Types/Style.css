@@ -1,0 +1,13 @@
+/* External file for css */
+h1 {
+    font-size: 40px;
+    text-align: right;
+    margin-top: 20px;
+    color: purple;
+}
+
+p{
+    text-align: justify;
+    font-size: 25px;
+    text-transform: capitalize;
+}
