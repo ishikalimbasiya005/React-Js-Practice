@@ -1,6 +1,6 @@
 import React from "react";
 import CreateContext2 from "./CraeteContext2";
-import Context from "./07_Context";
+import Context from "./06_Context";
 
 const CreateContext1 = () => {
   const name = " HELLO";

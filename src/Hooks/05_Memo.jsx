@@ -1,3 +1,6 @@
+
+// ++++++++++++++++++++++++++++++++++++ Memo Hook Example +++++++++++++++++++++++++++++++++++++
+
 import React, { useMemo, useState } from "react";
 
 const Memo = () => {

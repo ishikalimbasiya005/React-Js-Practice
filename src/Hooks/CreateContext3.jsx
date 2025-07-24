@@ -1,5 +1,5 @@
 import React, {  useContext } from "react";
-import Context from "./07_Context";
+import Context from "./06_Context";
 
 const CreateContext3 = () => {
     var demo = useContext(Context)

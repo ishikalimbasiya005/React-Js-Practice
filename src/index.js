@@ -12,14 +12,14 @@ import ReactDOM from "react-dom/client";
 
 // +++++++++++++++++++++++++ Hooks +++++++++++++++++++++++++++++++++
 // import UseState from "./Hooks/01_UseState";
-// import Use_State from "./Hooks/Use_State.jsx";
 // import Onchange from "./Hooks/02_Onchange";
 // import Onreference from "./Hooks/03_Onreference.jsx";
 // import Map from "./Hooks/04_Map.jsx";
 // import Memo from "./Hooks/05_Memo";
-// import Count from "./Hooks/06_Count.jsx";
-import Context from "./Hooks/07_Context.jsx";
+import Context from "./Hooks/06_Context.jsx";
 import CreateContext1 from "./Hooks/CreateContext1";
+// import Count from "./Hooks/Example_Count.jsx";
+// import Use_State from "./Hooks/Example_Use_State.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,14 +34,14 @@ root.render(
 
     {/* Hooks : ------------------------- */}
     {/* <UseState /> */}
-    {/* <Use_State /> */}
     {/* <Onchange /> */}
     {/* <Onreference /> */}
      {/* <Map /> */}
     {/* <Memo /> */}
-    {/* <Count /> */}
     <Context />
     <CreateContext1 />
+    {/* <Count /> */}
+    {/* <Use_State /> */}
     
   </>
 );
