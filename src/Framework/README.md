@@ -32,12 +32,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 📷 UI Outputs (Screenshots)
 
 ### 1. MUI Alert Output
-![MUI Output](screenshorts/mui.png)
+![MUI Output](screenshots/mui.png)
 
 ### 2. Bootstrap Accordion Output
-![Bootstrap Output](bootstrap.png)
+![Bootstrap Output](screenshots/bootstrap.png)
 
 ### 3. AntDesign Pagination Output
-![AntDesign Output](antdesign.png)
+![AntDesign Output](screenshots/antdesign.png)
 
 
