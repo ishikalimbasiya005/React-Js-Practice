@@ -32,7 +32,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ## 📷 UI Outputs (Screenshots)
 
 ### 1. MUI Alert Output
-![MUI Output](mui.png)
+![MUI Output](screenshorts/mui.png)
 
 ### 2. Bootstrap Accordion Output
 ![Bootstrap Output](bootstrap.png)
