@@ -52,9 +52,9 @@ A `useState` based example to toggle a bulb image between ON and OFF states.
 - `Onchange.js` – Input box state update  
 - `Onreference.js` – Access input using useRef  
 - `Map.js` – Render list and table using map()  
-- `Memo.js` – Optimize render using useMemo  
-- `Count.js` – Simple counter using useState  
-- `07_Context.js`, `CreateContext1.js`, `CreateContext2.js`, `CreateContext3.js` – Context API example  
+- `Memo.js` – Optimize render using useMemo   
+- `06_Context.js`, `CreateContext1.js`, `CreateContext2.js`, `CreateContext3.js` – Context API example
+- `Count.js` – Simple counter using useState 
 - `Use_State.js` – Bulb toggle using useState  
 
 ---
