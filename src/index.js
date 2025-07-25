@@ -16,10 +16,21 @@ import ReactDOM from "react-dom/client";
 // import Onreference from "./Hooks/03_Onreference.jsx";
 // import Map from "./Hooks/04_Map.jsx";
 // import Memo from "./Hooks/05_Memo";
-import Context from "./Hooks/06_Context.jsx";
-import CreateContext1 from "./Hooks/CreateContext1";
+// import Context from "./Hooks/06_Context.jsx";
+// import CreateContext1 from "./Hooks/CreateContext1";
 // import Count from "./Hooks/Example_Count.jsx";
 // import Use_State from "./Hooks/Example_Use_State.jsx";
+
+
+// +++++++++++++++++++++++++ API +++++++++++++++++++++++++++++++++
+import CreateApi from "./API/CreateApi";
+import ReadApi from "./API/ReadApi";
+import UpdateApi from "./API/UpdateApi";
+import Login from "./API/Login";
+
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -38,10 +49,27 @@ root.render(
     {/* <Onreference /> */}
      {/* <Map /> */}
     {/* <Memo /> */}
-    <Context />
-    <CreateContext1 />
+    {/* <Context />
+    <CreateContext1 /> */}
     {/* <Count /> */}
     {/* <Use_State /> */}
     
+
+    {/* API : ------------------------- */}
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Login />
+              <CreateApi />
+            </>
+          }
+        />
+        <Route path="/ReadApi" element={<ReadApi />} />
+        <Route path="/UpdateApi/:id" element={<UpdateApi />} />
+      </Routes>
+    </BrowserRouter>
   </>
 );
