@@ -64,8 +64,10 @@ npm i
 npm i express
 ```
 ### Output :
-![Preview](./assets/Output-1.png)
-![Preview](./assets/Output-2.png)
+![Login-Page](Images/Output-1.png)
+![Read-Data](Images/Output-2.png)
+
+Same as Run Delete And Update Operations.
 
 
 
