@@ -63,5 +63,9 @@ npm init -f
 npm i
 npm i express
 ```
+### Output :
+![Preview](./assets/Output-1.png)
+![Preview](./assets/Output-2.png)
+
 
 
